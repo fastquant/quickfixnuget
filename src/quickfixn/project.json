@@ -1,0 +1,28 @@
+﻿{
+  "buildOptions": {
+    "outputName": "QuickFix",
+    "compile": {
+      "exclude": [
+        "QuickFIXn/Message/FIX50SP1/*.cs",
+        "QuickFIXn/Message/FIX50SP2/*.cs"
+      ]
+    },
+    "copyToOutput": {
+      "include": [ "spec/**/*" ]
+    }
+  },
+  "packhOptions": {
+    "include": [ "spec" ]
+  },
+
+  "frameworks": {
+    "net452": {
+      "frameworkAssemblies": {
+        "System.Xml": "4.0.0.0"
+      }
+    }
+
+  },
+  "version": "1.7.0.020161006",
+  "name": "quickfixn"
+}
