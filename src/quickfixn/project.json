@@ -15,22 +15,14 @@
     "include": [ "spec" ]
   },
   "dependencies": {
-    "NETStandard.Library": "1.6.1" 
+    "NETStandard.Library": "1.6.1"
   },
   "frameworks": {
-    "net452": {
+    "net45": {
       "frameworkAssemblies": {
         "System.Xml": "4.0.0.0"
       }
-    },
-    "netstandard1.3": {
-      "System.Xml.XPath": "4.3.0",
-      "System.Runtime.Serialization.Xml": "4.3.0",
-      "System.Xml.XmlDocument": "4.3.0",
-      "System.Xml.XPath.XmlDocument": "4.3.0",
-      "System.Runtime.Serialization.Primitives": "4.3.0",
-      "System.Threading.Thread": "4.3.0"
-    } 
+    }
   },
   "version": "1.7.0.020161006",
   "name": "quickfixn"
